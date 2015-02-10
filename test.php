@@ -4,12 +4,12 @@
  * Plugin Name:			Gyrus Test
  * Plugin URI:			https://github.com/gyrus/test
  * Description:			A plugin for testing GitHub.
- * Version:				0.1.0
+ * Version:				0.1.1
  * Author:				Gyrus
  * GitHub Plugin URI:	https://github.com/gyrus/test
  */
 
-add_action( 'wp_footer', 'gt_wp_footer' );
-function gt_wp_footer() {
-	echo '<p>Test plugin version 0.1.0</p>';
+add_action( 'twentyfifteen_credits', 'gt_twentyfifteen_credits' );
+function gt_twentyfifteen_credits() {
+	echo '<p>Test plugin version 0.1.1</p>';
 }
